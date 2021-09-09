@@ -1,0 +1,47 @@
+/* "f6bd60","f7ede2","f5cac3","84a59d","f28482" */
+/* Global styles */
+body{
+    color: #6e6e6e;
+}
+    
+    img{
+    width: 300px;
+}
+a{
+    color: #ffb949;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Profile */
+header{
+    background: #f5cac3;
+}
+
+/* Project */
+.project{
+    background: #f7ede2;
+}
+.project a{
+    color: #F6BD60;
+
+}
+
+.project .btn{
+    color: #f7ede2;
+    background: #F6BD60;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+.project .btn:hover{
+    background-color: #face88;
+}
+/* Education */
+
+/* Contact */
+footer{
+    background: #84a59d;
+    color: white;
+}
+
