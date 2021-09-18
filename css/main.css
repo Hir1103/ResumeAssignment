@@ -1,10 +1,19 @@
 /* "f6bd60","f7ede2","f5cac3","84a59d","f28482" */
 /* Global styles */
-body{
-    color: #6e6e6e;
+html{
+    box-sizing: border-box;
+}
+*,*::before, *:after {
+    box-sizing: inherit;
 }
     
-    img{
+body{
+    color: #6e6e6e;
+    margin: 0;
+
+}
+    
+img{
     width: 300px;
 }
 a{
@@ -12,6 +21,29 @@ a{
 }
 a:hover{
     text-decoration: none;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px;
+}
+h1 {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+.thin-shade {
+    font-family: 'Palanquin Dark';
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.35rem;
+    font-size: 100px;
+    color: #f7ede2;
+    text-shadow: -4px 4px 0 #F6BD60, -6px 6px 0 #f7ede2;
+  }
+
+h2 {
+    font-family: 'Palanquin Dark', sans-serif;
+    margin: 0;
+    font-size: 30px;
 }
 /* Profile */
 header{
@@ -33,9 +65,22 @@ header{
     text-decoration: none;
     padding: 8px;
     border-radius: 8px;
+    display: inline-block;
 }
 .project .btn:hover{
     background-color: #face88;
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #84a59d;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+    margin-top: 0;
 }
 /* Education */
 
